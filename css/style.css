@@ -233,13 +233,6 @@ header .call-us-btn {
   width: 49%;
   height: auto;
 }
-.client-quote i {
-  display: block;
-  margin-bottom: 10px;
-  width: 24px;
-  height: 22px;
-  background: url(../img/quote-mark-ic.png) 0 0 no-repeat;
-}
 .client-quote p {
   display: block;
   margin: 0 0 22px;
@@ -248,6 +241,14 @@ header .call-us-btn {
   color: #bcbcbc;
   line-height: 33px;
   text-align: left;
+}
+.client-quote p::before {
+  display: block;
+  margin-bottom: 10px;
+  content: "";
+  width: 24px;
+  height: 22px;
+  background: url(../img/quote-mark-ic.png) 0 0 no-repeat;
 }
 .client-info {
   overflow: hidden;
