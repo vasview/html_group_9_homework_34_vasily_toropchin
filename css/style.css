@@ -44,9 +44,9 @@ header .logo,
   height: 100%;
   float: left;
   margin: 0;
+  padding: 0;
   padding: 24px 7px 0;
 }
-header .logo h1,
 .navigation-header .logo h1 {
   margin: 0;
   padding: 0;
