@@ -47,9 +47,11 @@ $(document).ready(function(){
 		var scrollPosition = $(document).scrollTop();
 		var mobileMenuPosition = $('#gallery-block').position().top;
 		if (scrollPosition >= mobileMenuPosition) {
-			$(".navigation-header").show();
+			$(".top-nav").addClass("sticky-top-nav");
+      $('#logo_img').attr('src','img/nav-logo.png');
 		}
 		else {
-			$(".navigation-header").hide();
+			$(".top-nav").removeClass("sticky-top-nav");
+      $('#logo_img').attr('src','img/logo.png');
 		}
 	};

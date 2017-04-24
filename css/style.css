@@ -34,12 +34,10 @@ header {
   -moz-box-shadow:    0px 5px 5px 0px rgba(0, 0, 0, 0.2);
   box-shadow:         0px 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
-header .container,
-.navigation-header .container {
+header .container {
   overflow: hidden;
 }
-header .logo,
-.navigation-header .logo {
+header .logo {
   width: 165px;
   height: 100%;
   float: left;
@@ -47,12 +45,7 @@ header .logo,
   padding: 0;
   padding: 24px 7px 0;
 }
-.navigation-header .logo h1 {
-  margin: 0;
-  padding: 0;
-}
-header .logo a,
-.navigation-header .logo a {
+header .logo a {
   padding: 10px;
 }
 .btn-nav {
@@ -72,30 +65,25 @@ header .logo a,
   font-size: 28px;
   color: #fff;
 }
-header .menu-bar,
-.navigation-header .menu-bar {
+header .menu-bar {
   width: 390px;
   height: auto;
   float: left;
   margin: 0;
   padding: 35px 0 0 29px;
 }
-header .menu,
-.navigation-header .menu {
+header .menu {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-header .menu li,
-.navigation-header .menu li {
+header .menu li {
   display: inline-block;
 }
-header .menu li:not(:last-child),
-.navigation-header .menu li:not(:last-child) {
+header .menu li:not(:last-child) {
   margin-right: 20px;
 }
-header .menu li a,
-.navigation-header .menu li a {
+header .menu li a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
@@ -105,17 +93,10 @@ header .menu li a,
 header .menu li a {
   color: #9daeb6;
 }
-.navigation-header .menu li a {
-  color: #fff;
-}
 header .menu li a:hover {
   border-bottom: 2px solid #36aeea;
 }
-.navigation-header .menu li a:hover {
-  border-bottom: 2px solid #fff;
-}
-header .call-us-btn,
-.navigation-header .call-us-btn {
+header .call-us-btn {
   margin-top: 25px;
   width: 153px;
   height: 46px;
@@ -130,12 +111,7 @@ header .call-us-btn {
   border: 3px solid #36aeea;
   color: #36aeea;
 }
-.navigation-header .call-us-btn {
-  border: 3px solid #fff;
-  color: #fff;
-}
-.navigation-header {
-  display: none;
+.sticky-top-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -144,6 +120,16 @@ header .call-us-btn {
   width: 100%;
   height: 92px;
   background: #95a5ad;
+}
+.sticky-top-nav .call-us-btn {
+  border: 3px solid #fff;
+  color: #fff;
+}
+.sticky-top-nav .menu li a {
+  color: #fff;
+}
+.sticky-top-nav .menu li a:hover {
+  border-bottom: 2px solid #fff;
 }
 .gallery-block {
   margin-bottom: 48px;
