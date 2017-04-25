@@ -1,14 +1,12 @@
 @media screen and (max-width: 760px) {
-  header .call-us-btn,
-  .navigation-header .call-us-btn {
+  header .call-us-btn {
     float: left;
   }
  .btn-nav {
     display: block;
     cursor: pointer;
   }
-  header .menu-bar,
-  .navigation-header .menu-bar {
+  header .menu-bar {
     position: absolute;
     top: 69px;
     right: 20px;
@@ -16,18 +14,15 @@
     border: 1px solid #36aeea;
     background: rgba(149,165,173,0.7);
   }
-  header .menu,
-  .navigation-header .menu {
+  header .menu {
     padding: 0;
   }
-  header .menu li,
-  .navigation-header .menu li {
+  header .menu li {
     display: block;
     margin: 0 0 10px;
     padding: 0;
   }
-  header .menu li a,
-  .navigation-header .menu li a {
+  header .menu li a {
     display: inline;
     padding: 5px;
     margin: 5px;
@@ -35,16 +30,13 @@
     text-decoration: none;
     color: #fff;
   }
-  header .menu li:hover a,
-  .navigation-header .menu li:hover a {
+  header .menu li:hover a {
     border-bottom: none;
     color: #36aeea;
   }
-
   .gallery-photo {
     width: 49%;
   }
-
 }
 @media screen and (max-width: 600px) {
   .social-icon.slack-icon, 
@@ -68,5 +60,7 @@
  .gallery-photo {
     width: 100%;
   }
-  
+  .client-info strong {
+    font-size: 14px;
+  }
 }

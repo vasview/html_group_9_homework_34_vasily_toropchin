@@ -239,6 +239,12 @@ header .call-us-btn {
 .client-info {
   overflow: hidden;
 }
+.client-info a {
+  display: block;
+  height: 65px;
+  max-width: 330px;
+  width: auto;
+}
 .client-img {
   width: 65px;
   height: 65px;
@@ -250,7 +256,7 @@ header .call-us-btn {
   height: 100%;
   border-radius: 50%;
 }
-.client-info h4 {
+.client-info strong {
   display: inline-block;
   float: left;
   margin: 22px 0 0 15px;
@@ -258,7 +264,7 @@ header .call-us-btn {
   font-weight: 700;
   color: #36aeea;
 }
-.client-info h4 span {
+.client-info strong span {
   font-weight: 400;
 }
 .form-block {
