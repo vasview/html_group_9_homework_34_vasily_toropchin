@@ -7,16 +7,15 @@ $(document).ready(function(){
 
   open_modal.click(function(){
     overlay.fadeIn(400, function(){
-      $(modal).css('display', 'block').animate({top: '50%'}, 400);
+      modal.css('display', 'block');
     });
   });
 
   close.click(function(){
-    modal.fadeOut(400, function(){
-      modal.css('top', '20%');
-    });
+    console.log('it works');
+    modal.css('display','none');
     overlay.fadeOut(400);
-  })
+  });
 
   $(document).on("scroll", onScroll);
  

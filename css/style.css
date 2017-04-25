@@ -270,6 +270,8 @@ header .call-us-btn {
 .form-block {
   width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
 }
 .contact-form {
   margin: 0 auto;
@@ -327,7 +329,9 @@ header .call-us-btn {
   letter-spacing: 2px;
 }
 .modal {
-  width: 100%;
+  width: 600px;
+  margin: 0;
+  padding: 0;
   display: none;
   text-align: center;
   position: fixed;

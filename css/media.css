@@ -37,6 +37,11 @@
   .gallery-photo {
     width: 49%;
   }
+  .modal {
+    max-width: 576px;
+    width: auto;
+    top: 5%;
+  }
 }
 @media screen and (max-width: 600px) {
   .social-icon.slack-icon, 
