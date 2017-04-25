@@ -12,7 +12,6 @@ $(document).ready(function(){
   });
 
   close.click(function(){
-    console.log('it works');
     modal.css('display','none');
     overlay.fadeOut(400);
   });
@@ -37,9 +36,6 @@ $(document).ready(function(){
 			$(".menu-bar").slideToggle(500);
 		});
 
-		$("#btn-nav-mob").click(function(){
-			$("#menu-bar-mob").slideToggle(500);
-		});
 });
 
 	function onScroll(event){

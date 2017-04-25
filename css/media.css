@@ -13,6 +13,7 @@
     width: 150px;
     border: 1px solid #36aeea;
     background: rgba(149,165,173,0.7);
+    display: none;
   }
   header .menu {
     padding: 0;
